@@ -1,5 +1,6 @@
 import { AxiosInstance } from "axios";
 import ArticleApi from "./module/article";
+import http from "./http";
 
 class Api {
   Article: ArticleApi;
@@ -8,3 +9,5 @@ class Api {
     // ...
   }
 }
+
+export default new Api(http);
