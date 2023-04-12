@@ -1,4 +1,4 @@
-declare namespace API {
+declare namespace ApiResponse {
   interface OrderBy {
     CREATETIME: "createTime";
     LIKE: "like";
@@ -7,6 +7,7 @@ declare namespace API {
     DESC: "DESC";
     ASC: "ASC";
   }
+
   interface listParams {
     page: number;
     pageSize: number;
