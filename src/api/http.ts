@@ -3,8 +3,6 @@ import ApiConfig from "./config";
 
 const isProd = process.env.ENV === "prod";
 
-console.log(process.env.ENV);
-
 const http = axios.create({
   timeout: 2000,
   baseURL: isProd ? ApiConfig.PROD_BASE_URL : ApiConfig.DEV_BASE_URL,
