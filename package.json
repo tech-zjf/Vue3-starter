@@ -1,5 +1,5 @@
 {
-  "name": "my-vue3",
+  "name": "vue3-starter",
   "version": "0.0.0",
   "scripts": {
     "dev": "cross-env ENV=dev_zjf vite",
